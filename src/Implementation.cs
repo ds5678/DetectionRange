@@ -20,20 +20,29 @@ namespace DetectionRange
             if (Settings.m_animals[animal].enabled)
             {
                 if (Settings.m_animals[animal].hear_range_while_feeding >= 0f)
-                    inst.m_HearFootstepsRangeWhileFeeding = Settings.m_animals[animal].hear_range_while_feeding;
+                    inst.m_HearFootstepsRangeWhileFeeding = ApplyCustomMode(Settings.m_animals[animal].hear_range_while_feeding);
 
                 if (Settings.m_animals[animal].hear_range >= 0f)
-                    inst.m_HearFootstepsRange = Settings.m_animals[animal].hear_range;
+                    inst.m_HearFootstepsRange = ApplyCustomMode(Settings.m_animals[animal].hear_range);
 
                 if (Settings.m_animals[animal].detection_range_while_feeding >= 0f)
-                    inst.m_DetectionRangeWhileFeeding = Settings.m_animals[animal].detection_range_while_feeding;
+                    inst.m_DetectionRangeWhileFeeding = ApplyCustomMode(Settings.m_animals[animal].detection_range_while_feeding);
 
                 if (Settings.m_animals[animal].detection_range >= 0f)
-                    inst.m_DetectionRange = Settings.m_animals[animal].detection_range;
+                    inst.m_DetectionRange = ApplyCustomMode(Settings.m_animals[animal].detection_range);
 
                 if (Settings.m_animals[animal].smell_range >= 0f)
                     inst.m_SmellRange = Settings.m_animals[animal].smell_range;
             }
+        }
+
+        internal static float ApplyCustomMode(float range)
+        {
+            if (GameManager.InCustomMode())
+            {
+                return GameManager.GetExperienceModeManagerComponent().GetCustomWildlifeDetectionModifier() * range;
+            }
+            return range;
         }
     }
 }
