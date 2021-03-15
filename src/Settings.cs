@@ -24,29 +24,29 @@ namespace DetectionRange
         public bool wolf_enabled = false;
 
         [Name("Smell range")]
-        [Description("Default value is 100 (as of February 09'th, 2019)")]
+        [Description("Default value is 100.\n(as of 15/03/2021)")]
         [Slider(0f, 500f, 501)]
         public float wolf_smell_range = 100f;
 
         [Name("Hear range")]
-        [Description("Default value is 75 (as of February 09'th, 2019)")]
+        [Description("Default value is 60.\n(as of 15/03/2021)")]
         [Slider(0f, 500f, 501)]
-        public float wolf_hear_range = 75f;
+        public float wolf_hear_range = 60f;
 
         [Name("Hear range while feeding")]
-        [Description("Default value is 20 (as of February 09'th, 2019)")]
+        [Description("Default value is 25.\n(as of 15/03/2021)")]
         [Slider(0f, 500f, 501)]
-        public float wolf_hear_range_while_feeding = 20f;
+        public float wolf_hear_range_while_feeding = 25f;
 
         [Name("Detection range")]
-        [Description("Default value is 60 (as of February 09'th, 2019)")]
+        [Description("Default value is 75.\n(as of 15/03/2021)")]
         [Slider(0f, 500f, 501)]
-        public float wolf_detection_range = 60f;
+        public float wolf_detection_range = 75f;
 
         [Name("Detection range while feeding")]
-        [Description("Default value is 25 (as of February 09'th, 2019)")]
+        [Description("Default value is 20.\n(as of 15/03/2021)")]
         [Slider(0f, 500f, 501)]
-        public float wolf_detection_range_while_feeding = 25f;
+        public float wolf_detection_range_while_feeding = 20f;
 
         [Section("Deer")]
 
@@ -55,29 +55,29 @@ namespace DetectionRange
         public bool deer_enabled = false;
 
         [Name("Smell range")]
-        [Description("Default value is 0 (as of February 09'th, 2019)")]
+        [Description("Default value is 0.\n(as of 15/03/2021)")]
         [Slider(0f, 500f, 501)]
         public float deer_smell_range = 0f;
 
         [Name("Hear range")]
-        [Description("Default value is 40 (as of February 09'th, 2019)")]
+        [Description("Default value is 60.\n(as of 15/03/2021)")]
         [Slider(0f, 500f, 501)]
-        public float deer_hear_range = 40f;
+        public float deer_hear_range = 60f;
 
         [Name("Hear range while feeding")]
-        [Description("Default value is 30 (as of February 09'th, 2019)")]
+        [Description("Default value is 20.\n(as of 15/03/2021)")]
         [Slider(0f, 500f, 501)]
-        public float deer_hear_range_while_feeding = 30f;
+        public float deer_hear_range_while_feeding = 20f;
 
         [Name("Detection range")]
-        [Description("Default value is 60 (as of February 09'th, 2019)")]
+        [Description("Default value is 40.\n(as of 15/03/2021)")]
         [Slider(0f, 500f, 501)]
-        public float deer_detection_range = 60f;
+        public float deer_detection_range = 40f;
 
         [Name("Detection range while feeding")]
-        [Description("Default value is 20 (as of February 09'th, 2019)")]
+        [Description("Default value is 30.\n(as of 15/03/2021)")]
         [Slider(0f, 500f, 501)]
-        public float deer_detection_range_while_feeding = 20f;
+        public float deer_detection_range_while_feeding = 30f;
 
         [Section("Moose")]
 
@@ -86,29 +86,29 @@ namespace DetectionRange
         public bool moose_enabled = false;
 
         [Name("Smell range")]
-        [Description("Default value is 0 (as of February 09'th, 2019)")]
+        [Description("Default value is 0.\n(as of 15/03/2021)")]
         [Slider(0f, 500f, 501)]
         public float moose_smell_range = 0f;
 
         [Name("Hear range")]
-        [Description("Default value is 50 (as of February 09'th, 2019)")]
+        [Description("Default value is 60.\n(as of 15/03/2021)")]
         [Slider(0f, 500f, 501)]
-        public float moose_hear_range = 50f;
+        public float moose_hear_range = 60f;
 
         [Name("Hear range while feeding")]
-        [Description("Default value is 30 (as of February 09'th, 2019)")]
+        [Description("Default value is 20.\n(as of 15/03/2021)")]
         [Slider(0f, 500f, 501)]
-        public float moose_hear_range_while_feeding = 30f;
+        public float moose_hear_range_while_feeding = 20f;
 
         [Name("Detection range")]
-        [Description("Default value is 60 (as of February 09'th, 2019)")]
+        [Description("Default value is 50.\n(as of 15/03/2021)")]
         [Slider(0f, 500f, 501)]
-        public float moose_detection_range = 60f;
+        public float moose_detection_range = 50f;
 
         [Name("Detection range while feeding")]
-        [Description("Default value is 20 (as of February 09'th, 2019)")]
+        [Description("Default value is 30.\n(as of 15/03/2021)")]
         [Slider(0f, 500f, 501)]
-        public float moose_detection_range_while_feeding = 20f;
+        public float moose_detection_range_while_feeding = 30f;
 
         [Section("Rabbit")]
 
@@ -117,29 +117,29 @@ namespace DetectionRange
         public bool rabbit_enabled = false;
 
         [Name("Smell range")]
-        [Description("Default value is 0 (as of February 09'th, 2019)")]
+        [Description("Default value is 0.\n(as of 15/03/2021)")]
         [Slider(0f, 500f, 501)]
         public float rabbit_smell_range = 0f;
 
         [Name("Hear range")]
-        [Description("Default value is 12 (as of February 09'th, 2019)")]
+        [Description("Default value is 7.\n(as of 15/03/2021)")]
         [Slider(0f, 500f, 501)]
-        public float rabbit_hear_range = 12f;
+        public float rabbit_hear_range = 7f;
 
         [Name("Hear range while feeding")]
-        [Description("Default value is 30 (as of February 09'th, 2019)")]
+        [Description("Default value is 5.\n(as of 15/03/2021)")]
         [Slider(0f, 500f, 501)]
-        public float rabbit_hear_range_while_feeding = 30f;
+        public float rabbit_hear_range_while_feeding = 5f;
 
         [Name("Detection range")]
-        [Description("Default value is 7 (as of February 09'th, 2019)")]
+        [Description("Default value is 12.\n(as of 15/03/2021)")]
         [Slider(0f, 500f, 501)]
-        public float rabbit_detection_range = 7f;
+        public float rabbit_detection_range = 12f;
 
         [Name("Detection range while feeding")]
-        [Description("Default value is 5 (as of February 09'th, 2019)")]
+        [Description("Default value is 30.\n(as of 15/03/2021)")]
         [Slider(0f, 500f, 501)]
-        public float rabbit_detection_range_while_feeding = 5f;
+        public float rabbit_detection_range_while_feeding = 30f;
 
         [Section("Bear")]
 
@@ -148,29 +148,29 @@ namespace DetectionRange
         public bool bear_enabled = false;
 
         [Name("Smell range")]
-        [Description("Default value is 150 (as of February 09'th, 2019)")]
+        [Description("Default value is 150.\n(as of 15/03/2021)")]
         [Slider(0f, 500f, 501)]
         public float bear_smell_range = 150f;
 
         [Name("Hear range")]
-        [Description("Default value is 60 (as of February 09'th, 2019)")]
+        [Description("Default value is 60.\n(as of 15/03/2021)")]
         [Slider(0f, 500f, 501)]
         public float bear_hear_range = 60f;
 
         [Name("Hear range while feeding")]
-        [Description("Default value is 15 (as of February 09'th, 2019)")]
+        [Description("Default value is 25.\n(as of 15/03/2021)")]
         [Slider(0f, 500f, 501)]
-        public float bear_hear_range_while_feeding = 15f;
+        public float bear_hear_range_while_feeding = 25f;
 
         [Name("Detection range")]
-        [Description("Default value is 60 (as of February 09'th, 2019)")]
+        [Description("Default value is 60.\n(as of 15/03/2021)")]
         [Slider(0f, 500f, 501)]
         public float bear_detection_range = 60f;
 
         [Name("Detection range while feeding")]
-        [Description("Default value is 25 (as of February 09'th, 2019)")]
+        [Description("Default value is 15.\n(as of 15/03/2021)")]
         [Slider(0f, 500f, 501)]
-        public float bear_detection_range_while_feeding = 25f;
+        public float bear_detection_range_while_feeding = 15f;
 
         protected void SetWolfVisibility(bool visible)
         {
